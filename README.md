@@ -12,3 +12,7 @@ is open to incoming requests.
 and XLX reflectors. The output is saved as a text file to the /var/www/html directory. It will also email and SMS
 a "down" system status to the email account and cell phone number you enter. HTTP code 000 is a non-responsive
 website, 200 is a normal response, 301 indicates a "redirect"... maybe https versus http?
+
+3. gateway_ranks.sh - This script runs PSQL query on a Centos 7-based G3.0 or G3.1 based system to output to
+/var/www/html/gateway_ranks.txt for dispaly on a host. It checks the number of registered users on each registration
+server.
