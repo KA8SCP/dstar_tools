@@ -16,3 +16,5 @@ website, 200 is a normal response, 301 indicates a "redirect"... maybe https ver
 3. gateway_ranks.sh - This script runs PSQL query on a Centos 7-based G3.0 or G3.1 based system to output to
 /var/www/html/gateway_ranks.txt for dispaly on a host. It checks the number of registered users on each registration
 server.
+
+4. status.sh - This script outputs a text file to the /var/www/html directory that lists dstar gateway information
