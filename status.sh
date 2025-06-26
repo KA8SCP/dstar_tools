@@ -49,6 +49,6 @@ cat /dstar/tmp/status >> status.txt
 #grep initialized /var/log/g2_link.log | tail -1 >> status.txt
 #cat /root/g2_link/RPT_STATUS.txt >> status.txt
 #
-mutt -s "WB1GOF daily status $(date +%d%b%Y)" ka8scp@wb1gof.org < status.txt
+mutt -s "XXyZZZ daily status $(date +%d%b%Y)" youremail@address.com < status.txt
 #
 cp /tmp/status.txt /var/www/html/status.txt
