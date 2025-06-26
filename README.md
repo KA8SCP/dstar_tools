@@ -17,4 +17,8 @@ website, 200 is a normal response, 301 indicates a "redirect"... maybe https ver
 /var/www/html/gateway_ranks.txt for dispaly on a host. It checks the number of registered users on each registration
 server.
 
-4. status.sh - This script outputs a text file to the /var/www/html directory that lists dstar gateway information
+4. status.sh - For Centos 7-based G3.0 and G3.1 systems. This script outputs a text file to the /var/www/html directory
+that lists dstar gateway information including: system clock; what is my ip; last database sync; users pending licensing;
+dstar users ls report; Local users registered on multiple gateways; gateway status; dstarmon status; dsync status;
+dplus status; g2_link status (comment out of not used). It will also email you using mutt the same report. Use a cron job
+to schedule as needed.
